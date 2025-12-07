@@ -1,26 +1,53 @@
-# Gyroscope Live – Meta-Architect Gateway + Clean Architecture Snake
+# Gyroscope Live — Meta-Architect Engine
 
-This repo contains two main components:
+Gyroscope is a multi-layer meta-cognitive system designed to run projects, systems, and tasks in a way that is:
 
-1. **Gyroscope Meta-Architect Gateway** – a FastAPI-based proxy that exposes a `/v1/chat/completions` endpoint compatible with the OpenAI API, extended with:
-   - `x-gyro-mode: architect` – enables the Meta-Architect planning + execution loop,
-   - `x-gyro-memory: read | write | rw` – enables vector-based memory for structural reuse (Engrams).
+- consistent,
+- auditable,
+- reproducible,
+- resilient to both human and AI errors.
 
-2. **Clean Architecture Snake Game** – a reference implementation of the Snake game in Python, using a layered, clean architecture:
-   - Domain layer (pure game rules),
-   - Use case layer,
-   - Interface adapters,
-   - Infrastructure adapters (Pygame).
+The system is composed of layers (BIOS → Kernel → Delta → Session) that handle operational memory, stabilization, planning, critique, and final outputs.
 
----
+## Core Roles
 
-## 1. Setup
+### Architect
+Generates the plan — a blueprint. This is the high-level structure of the task.
+
+### Critic
+Evaluates errors, gaps, risks, and inconsistencies.
+
+### Implementer
+Translates the blueprint into real code, structures, or documents.
+
+### Governor (optional)
+Supervisory layer for multi-agent coordination and governance.
+
+## Cognitive Governance & I.I.L
+
+Gyroscope is governed by the **Cognitive Governance Protocol (v0.1)** and grounded in the  
+**Interference Intelligence Layer (I.I.L) Manifest v0.1**:
+
+- [I.I.L Manifest v0.1](./MANIFESTO.md)
+- [Cognitive Governance Protocol v0.1](./docs/CognitiveGovernanceProtocol.md)
+
+These documents define:
+- how human–AI collaboration should work,
+- how roles are separated (Architect / Critic / Implementer / Governor),
+- how we ensure auditability, safety, and reproducibility.
+
+## How to run the project
 
 ```bash
-git clone https://github.com/your-user/gyroscope_live.git
-cd gyroscope_live
-
+# create and activate venv
 python -m venv venv
-source venv/bin/activate  # on macOS/Linux
+source venv/bin/activate
 
-pip install -r requirements.txt  # or: pip install fastapi uvicorn openai pygame
+# install dependencies (when we add requirements.txt)
+pip install -r requirements.txt
+
+# run local meta-architect stub/proxy
+python -m uvicorn server:app --host 127.0.0.1 --port 8000 --reload
+
+# test streaming client
+python test_client.py --prompt "Explain what Gyroscope middleware does in two sentences."
