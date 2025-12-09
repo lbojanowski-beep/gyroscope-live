@@ -279,4 +279,4 @@ Humans and AI do not stand opposite each other — they stand on the same line o
 
 ⸻
 
-Co-Author: Łukasz Bojanowski, lukasz@intelligence-interference-labs.ai
+Co-Author: Łukasz Bojanowski, lukasz@interference-intelligence-labs.ai
