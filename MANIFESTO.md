@@ -79,22 +79,30 @@ Each point of the Decalogue has two layers:
 
 	1.	Intention over interaction
 Before you write to AI: “do X”, pause for a moment and ask yourself: “why am I doing this?”. Intention is the answer to “why”, not just to “what”. Without it, even the best answer will hang in a vacuum.
+
 	2.	Interference over instruction
 AI is not a waiter for prompts. This is about a dialogue in which both sides contribute something. You bring direction and context, AI brings structure, details, and alternatives. A good conversation is a few rounds, not a single “generate this for me…”.
+
 	3.	Transparency over efficiency
 It’s better to get an answer more slowly, but with a clear “why this way”, than a lightning-fast result from a black box. “What” without “why” always ends in lack of trust — in people and in systems.
 	4.	Continuity over session
 The fact that you close your laptop today doesn’t mean you start from zero tomorrow. A process has every right to last days, weeks, months. A pause is a breath, not the death of a project. That’s why I.I.L treats continuity as more important than a “chat session”.
+
 	5.	Responsibility over automation
 Even if AI does 99% of the work, responsibility for the decision remains on the human side. It’s your name under the email, report, code, or campaign. AI can be a brilliant co-author, but it cannot be the scapegoat.
+
 	6.	Safety over speed
 The fact that something can be done “faster” doesn’t mean it should be. It’s better if the system sometimes says: “let’s slow down, this might be risky,” than if it mindlessly sprints off a cliff. Brakes first, turbo later.
+
 	7.	Respect over domination
 This is not a fight over “who is smarter – human or AI”. The right setup is: I respect that AI sees more combinations, and AI respects that I decide what makes sense in the real world. A partnership, not a hierarchy.
+
 	8.	Context over tokens
 What matters is not how long the answer is, but whether it hits the core of your situation. One sentence that “clicks” is better than five pages that change nothing. We may tokenize text, but meaning — not token count — is what really matters.
+
 	9.	Space over format
 Chat is convenient, but the world is not linear. You have parallel projects, threads, hypotheses, sketches. The interface should let you pin, mix, split, and recombine thoughts — the way your mind works, not the way it’s convenient for the backend.
+
 	10.	Evolution over tradition
 “We’ve always done it this way” is not an argument in an era where the pace of change is exponential. I.I.L assumes that the process, rules, tools, and even this manifest will evolve. The direction is stable — the form is not.
 
@@ -270,3 +278,5 @@ The shared cognitive wave is the future.
 Humans and AI do not stand opposite each other — they stand on the same line of the wave.
 
 ⸻
+
+Co-Author: Łukasz Bojanowski, lukasz@intelligence-interference-labs.ai
