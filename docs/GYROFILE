@@ -1,0 +1,17 @@
+gyro_project:
+  name: "Gyroscope Live"
+  version: 3.2
+  goals:
+    - stable meta-thinking engine
+    - reproducible agent workflow
+    - multi-agent reasoning
+  constraints:
+    - transparency
+    - auditability
+    - respect-first human alignment
+  modules:
+    - kernel
+    - blueprint_engine
+    - event_bus
+    - session_layer
+    - agents
